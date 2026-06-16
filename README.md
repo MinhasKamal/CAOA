@@ -1,12 +1,10 @@
-# S2C-Completion
+# CAOA - CAOA-Completion-Assisted Object-CAD Alignment
 
-#### 3DV2026 - CAOA-Completion-Assisted Object-CAD Alignment
-
-[Paper](https://openreview.net/pdf/c438ccb8604dc76f5f355bfafa7516a62c716275.pdf) | [Project](https://github.com/kumarhiranya/S2CCompletion) | [SyntheticPCDCompletionDataset-GColab](https://colab.research.google.com/drive/14UBBk6mOH5IHOBv5ABmiyF4vus9ZtnmN?usp=sharing)
+[Paper (OpenReview)](https://openreview.net/pdf?id=z4nQmrbdcA) | [OfficialProject](https://github.com/kumarhiranya/S2CCompletion) | [SyntheticPCDCompletionDataset-GoogleColab](https://colab.research.google.com/drive/14UBBk6mOH5IHOBv5ABmiyF4vus9ZtnmN?usp=sharing)
 
 **S2C-Completion** is a dataset and annotation toolkit for establishing ground-truth correspondences between real-world 3D point cloud instances from ScanNetv2 and their matching CAD models from ShapeNet, building on top of the [Scan2CAD](https://github.com/skanti/Scan2CAD) alignment dataset.
 
----
+<img width="1000" height=auto alt="overview" src="https://github.com/user-attachments/assets/e2835aef-985e-49fb-9b60-61c96619b7f3" />
 
 ## Table of Contents
 
@@ -20,7 +18,6 @@
   - [Fully Manual Annotation (`object_completion_annotator.py`)](#fully-manual-annotation-object_completion_annotatorpy)
   - [Merging Per-Scene Annotations (`combine_scene_annos.py`)](#merging-per-scene-annotations-combine_scene_annospy)
 - [Annotation Workflow](#annotation-workflow)
-- [License](#license)
 
 ---
 
@@ -196,19 +193,18 @@ python combine_scene_annos.py
 
 ## Citation
 
-If you use this dataset or code please cite:
-
 ```
-@inproceedings{kumar2026caoa,
-  title={CAOA-Completion-Assisted Object-CAD Alignment},
-  author={Kumar, Hiranya Garbha and Kamal, Minhas and Prabhakaran, Balakrishnan},
-  booktitle={Thirteenth International Conference on 3D Vision},
-  year={2026},
-  organization={IEEE}
+@INPROCEEDINGS{kumar2026caoa,
+    author = { Kumar, Hiranya Garbha and Kamal, Minhas and Prabhakaran, Balakrishnan },
+    booktitle = { 2026 International Conference on 3D Vision (3DV) },
+    title = {{ CAOA - Completion-Assisted Object-CAD Alignment }},
+    year = {2026},
+    month = mar,
+    pages = {427-436},
+    doi = {10.1109/3DV69130.2026.00047},
+    publisher = {IEEE Computer Society}
 }
 ```
 
-## License
-This project is licensed under CC0-1.0.
 
 See more of my research works [here](https://scholar.google.com/citations?user=SZxTaQgAAAAJ).
