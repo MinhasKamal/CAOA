@@ -1,4 +1,4 @@
-# CAOA - CAOA-Completion-Assisted Object-CAD Alignment
+# CAOA - Completion-Assisted Object-CAD Alignment
 
 [Paper (OpenReview)](https://openreview.net/pdf?id=z4nQmrbdcA) | [OfficialProject](https://github.com/kumarhiranya/S2CCompletion) | [SyntheticPCDCompletionDataset-GoogleColab](https://colab.research.google.com/drive/14UBBk6mOH5IHOBv5ABmiyF4vus9ZtnmN?usp=sharing)
 
