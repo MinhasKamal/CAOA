@@ -207,4 +207,5 @@ python combine_scene_annos.py
 ```
 
 
-See more of my research works [here](https://scholar.google.com/citations?user=SZxTaQgAAAAJ).
+See more of my research works on [GoogleScholar](https://scholar.google.com/citations?user=SZxTaQgAAAAJ). I also write about AI on [Medium](https://medium.com/@minhaskamal).
+
